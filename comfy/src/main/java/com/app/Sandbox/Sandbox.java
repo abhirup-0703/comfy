@@ -10,5 +10,5 @@ public class Sandbox extends com.app.Comfy.Application {
     @Override
     public Application createApplication() {
         return new Sandbox();
-    }    
+    }
 }

@@ -1,11 +1,11 @@
 package com.app.Comfy;
 
+import com.app.Comfy.logging.Log;
+
 public class Application {
 
     public void run() {
-        for (int i = 0; i < 10; ++i) {
-            System.out.println("Iteration " + i);
-        }
+        Log.init();
     }
     
     public Application createApplication() {
